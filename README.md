@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @junaid
-- Front End Devlopment.
+- Front End Devloper.
 - Just a Beginner........
 
 <!---
