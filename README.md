@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @junaid
-- Front End Devloper.
-- Just a Beginner........
+- 👋 Hi, I’m @junaidwali
+- Full Stack Devlopment.
+- A2k Intern........
 
 <!---
 junaidgamer/junaidgamer is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
