@@ -1,0 +1,299 @@
+/* Default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }.top{
+    border: 1px solid black;
+    background: #fff;
+    padding: 10px 15px 10px 15px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.img1 {
+    height: 33px;
+    width: 33px;
+}
+/* for crud opreations  */
+.right {
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    width: 40vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    height: 80%;
+}
+.log {
+width: 450px; /* Adjusted width for better responsiveness */
+    height: 450px;
+}
+
+.left {
+    width: 40vw;
+    margin: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    /* height: 90vh; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec_logo {
+    width: 50px;
+    height: 50px;
+}
+
+.heading {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.round 
+{
+    padding:10px;
+    width: 335px;
+    color: black;
+    border-radius: 40px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+}
+.round:hover
+{
+    cursor: pointer;
+}
+
+.box
+ {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+.lin {
+    height: 2px;
+    width: 11rem;
+    background-color: black;
+} 
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}.smal{
+  font-size: x-small;
+}
+
+.button 
+{
+    border: 1px solid;
+    font-weight: bold;
+    background-color: rgb(77, 174, 244);
+}.bla{
+    color: black;
+}
+
+.sig {
+    border:solid black;
+}.sign_{
+    text-decoration: none;
+    color:rgb(77, 174, 244);
+}
+
+.sec_logo {
+    display: none; /* Initially hidden */
+}
+
+nav 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: larger;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* top is the css of publix page */
+/* now the other pages starts like create signin  */
+.logo-box {
+    border: 1px solid black;
+  background: #fff;
+  padding: 30px 35px 30px 35px;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+}
+.tweet{
+  border: 1px solid grey;
+  background: #fff;
+  padding: 30px 35px 30px 35px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+}.post{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  position: relative;
+}
+ 
+.logo {
+  width: 30px;
+  margin-bottom: 20px;
+}
+.logo-box h2 {
+  margin-bottom: 20px;
+}
+ 
+.logo-box button img {
+  width: 18px;
+  margin-right: 10px;
+}
+ 
+.logo-box button {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #999;
+  font-weight: 500;
+  cursor: pointer;
+}
+ 
+.logo-box hr {
+  border: 0;
+  height: 1px;
+  background: #c2c2c2;
+  margin-bottom:10px;
+}
+ 
+.or {
+  display: block;
+  width: 40px;
+  margin: auto;
+  background: #fff;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.logo-box input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #999;
+  outline: 0;
+  padding: 15px 10px;
+  border-radius: 4px;
+}
+::placeholder {
+  font-weight: 500;
+  color: #333;
+}
+ 
+.logo-box form button {
+  background: #000;
+    border: 0;
+  margin-bottom: 15px;
+}
+ 
+.logo-box p {
+  /* text-align: left; */
+  font-size: 14px;
+  color: #555;
+  margin: 40px 0 50px;
+}
+ 
+.login-box p a {
+  text-decoration: none;
+  color: #359cf0;
+  margin-left: 100px;
+}.Nex{
+    color: white;
+}.cross{
+    display: flex;
+}.line{
+    display: flex;
+    align-items:flex-end;
+}form,_2ndform{
+  display: flex;
+  flex-direction: column;
+}
+.forms_fields
+{
+    display: flex;
+    flex-direction: column;
+    gap :5px
+}.dob,.emil{
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}.all_boxes{
+  display: flex;
+}.mainouter{
+  height: 80%;
+  width: 40%;
+}
+@media screen and (max-width: 1000px) {
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    .sec_logo {
+        display: block; /* Display on smaller screens */
+    }
+    .left {
+        display: none; /* Hide on smaller screens */
+    }
+    .all {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .right {
+        width: 60%;
+        align-items: center; /* Adjust width for better fit */
+    }.agreement{
+        font-size: 1rem;
+        text-wrap: wrap;
+    }.nav{
+        font-size: smaller;
+    }}
